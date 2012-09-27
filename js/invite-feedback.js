@@ -22,10 +22,25 @@ $(document).ready(function() {
     }
   });
 
+  // Submit buttons handlers.
   $('#invite-submit').click(function() {
     $('#invite-content').hide();
     $('#invite-thankyou').show();
   })
+  $('#feedback-submit').click(function() {
+    $('#feedback-content').hide();
+    $('#feedback-thankyou').show();
+  })
+
+  // Back buttons from welcome screens.
+  $('#invite-back-button').click(function() {
+    $('#invite-thankyou').hide();
+    $('#invite-content').show();
+  });
+  $('#feedback-back-button').click(function() {
+    $('#feedback-thankyou').hide();
+    $('#feedback-content').show();
+  });
 
   function invite_open() {
     $('#invite-thankyou').hide();

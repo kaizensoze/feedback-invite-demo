@@ -103,6 +103,14 @@ input[type=button] {
   display: none;
   float: left;
 }
+#feedback-thankyou {
+  width: 372px;
+  height: 126px;
+  padding: 35 29 40 40;
+  background-color: white;
+  display: none;
+  float: left;
+}
 
 .thankyou-text1 {
   font-family: AGaramond;
