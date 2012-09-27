@@ -94,3 +94,24 @@ textarea {
 input[type=button] {
   margin-top: 7px;
 }
+
+#invite-thankyou {
+  width: 372px;
+  height: 126px;
+  padding: 35 29 40 40;
+  background-color: white;
+  display: none;
+  float: left;
+}
+
+.thankyou-text1 {
+  font-family: AGaramond;
+  font-size: 30px;
+}
+
+.thankyou-text2 {
+  font-family: AGaramond;
+  font-size: 20px;
+  color: #474d57;
+  margin-bottom: 20px;
+}

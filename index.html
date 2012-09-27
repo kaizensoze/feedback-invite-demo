@@ -1,53 +1,64 @@
 <html>
 
 <head>
-  <title>Test</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
-  <div id="feedback-invite-container">
 
-    <div id="feedback-invite-buttons">
-      <div id="invite-button"></div>
-      <div id="feedback-button"></div>
-    </div>
+<div id="feedback-invite-container">
 
-    <div id="invite-content">
-      <div class="main-text">
-        Expand your Archetype community. Invite<br />
-        friends from your other networks to join.
-      </div>
-
-      <div class="hr1"></div>
-      
-      <input type="text" placeholder="Your Name" />
-      <input type="text" placeholder="Your Email Address" />
-      <textarea placeholder="Your friends email addresses (separate with commas)"></textarea>
-      <input type="button" value="SEND" />
-
-      <div class="feedback-invite-close"></div>
-    </div>
-
-    <div id="feedback-content">
-      <div class="main-text">
-        Want to share an idea or report an issue?<br />
-        We're always looking to improve!
-      </div>
-
-      <div class="hr1"></div>
-
-      <input type="text" placeholder="Your Name" />
-      <input type="text" placeholder="Your Email Address" />
-      <input type="text" placeholder="Subject" />
-      <textarea placeholder="Message"></textarea>
-      <input type="button" value="SEND" />
-
-      <div class="feedback-invite-close"></div>
-    </div>
+  <div id="feedback-invite-buttons">
+    <div id="invite-button"></div>
+    <div id="feedback-button"></div>
   </div>
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/invite-feedback.js"></script>
+
+  <div id="invite-content">
+    <div class="main-text">
+      Expand your Archetype community. Invite<br />
+      friends from your other networks to join.
+    </div>
+
+    <div class="hr1"></div>
+
+    <input type="text" placeholder="Your Name" />
+    <input type="text" placeholder="Your Email Address" />
+    <textarea placeholder="Your friends email addresses (separate with commas)"></textarea>
+    <input id="invite-submit" type="button" value="SEND" />
+
+    <div class="feedback-invite-close"></div>
+  </div>
+
+  <div id="invite-thankyou">
+    <div class="thankyou-text1">THANK YOU</div>
+    <div class="thankyou-text2">Your invites have been sent successfully.</div>
+    <input id="invite-more-button" type="button" value="INVITE MORE FRIENDS" />
+    <div class="feedback-invite-close"></div>
+  </div>
+
+  <div id="feedback-content">
+    <div class="main-text">
+      Want to share an idea or report an issue?<br />
+      We're always looking to improve!
+    </div>
+
+    <div class="hr1"></div>
+
+    <input type="text" placeholder="Your Name" />
+    <input type="text" placeholder="Your Email Address" />
+    <input type="text" placeholder="Subject" />
+    <textarea placeholder="Message"></textarea>
+    <input id="feedback-submit" type="button" value="SEND" />
+
+    <div class="feedback-invite-close"></div>
+  </div>
+
+
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/invite-feedback.js"></script>
+
 </body>
 
 </html>
