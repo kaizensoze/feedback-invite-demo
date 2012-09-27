@@ -1,0 +1,52 @@
+
+#feedback-invite-container {
+  position: fixed;
+  right: 0px;
+  top: 75px;
+}
+
+#feedback-invite-buttons {
+  float: left;
+}
+
+#invite-button {
+  width: 30px;
+  height: 100px;
+  background: transparent url(../img/invite-button.png) no-repeat;
+}
+
+#feedback-button {
+  width: 30px;
+  height: 100px;
+  background: transparent url(../img/feedback-button.png) no-repeat;
+  margin-top: 1px;
+}
+
+#feedback-invite-content {
+  float: left;
+  border: 1px solid black;
+}
+
+#invite-content {
+  width: 372px;
+  height: 166px;
+  padding: 35 29 40 40;
+}
+
+#invite-content .main-text {
+  color: black;
+  font-family: AGaramond;
+  font-size: 20px;
+}
+
+#invite-content .hr1 {
+  background-color: #e8e8e8;
+  height: 4px;
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#feedback-content {
+
+}
