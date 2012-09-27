@@ -17,22 +17,22 @@ body {
 #invite-button {
   width: 30px;
   height: 100px;
-  background: transparent url(../img/invite-button.png) 0 0 no-repeat;
+  background: transparent url(../images/feedback/invite-button.png) 0 0 no-repeat;
 }
 
 #invite-button.active {
-  background: transparent url(../img/invite-button.png) -30 0 no-repeat;
+  background: transparent url(../images/feedback/invite-button.png) -30 0 no-repeat;
 }
 
 #feedback-button {
   width: 30px;
   height: 100px;
-  background: transparent url(../img/feedback-button.png) 0 0 no-repeat;
+  background: transparent url(../images/feedback/feedback-button.png) 0 0 no-repeat;
   margin-top: 1px;
 }
 
 #feedback-button.active {
-  background: transparent url(../img/feedback-button.png) -30 0 no-repeat;
+  background: transparent url(../images/feedback/feedback-button.png) -30 0 no-repeat;
 }
 
 #invite-content {
@@ -73,7 +73,7 @@ body {
   right: 12px;
   width: 16px;
   height: 16px;
-  background: transparent url(../img/close-button.png) no-repeat;
+  background: transparent url(../images/feedback/close-button.png) no-repeat;
   cursor: pointer;
 }
 
