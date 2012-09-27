@@ -1,4 +1,8 @@
 
+body {
+  background-color: black;
+}
+
 #feedback-invite-container {
   position: fixed;
   right: 0px;
@@ -7,30 +11,37 @@
 
 #feedback-invite-buttons {
   float: left;
+  cursor: pointer;
 }
 
 #invite-button {
   width: 30px;
   height: 100px;
-  background: transparent url(../img/invite-button.png) no-repeat;
+  background: transparent url(../img/invite-button.png) 0 0 no-repeat;
+}
+
+#invite-button.active {
+  background: transparent url(../img/invite-button.png) -30 0 no-repeat;
 }
 
 #feedback-button {
   width: 30px;
   height: 100px;
-  background: transparent url(../img/feedback-button.png) no-repeat;
+  background: transparent url(../img/feedback-button.png) 0 0 no-repeat;
   margin-top: 1px;
 }
 
-#feedback-invite-content {
-  float: left;
-  border: 1px solid black;
+#feedback-button.active {
+  background: transparent url(../img/feedback-button.png) -30 0 no-repeat;
 }
 
 #invite-content {
   width: 372px;
   height: 166px;
   padding: 35 29 40 40;
+  background-color: white;
+  display: none;
+  float: left;
 }
 
 #invite-content .main-text {
@@ -48,5 +59,17 @@
 }
 
 #feedback-content {
+  background-color: white;
+  display: none;
+  float: left;
+}
 
+.feedback-invite-close {
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  width: 16px;
+  height: 16px;
+  background: transparent url(../img/close-button.png) no-repeat;
+  cursor: pointer;
 }
