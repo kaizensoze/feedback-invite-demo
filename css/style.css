@@ -1,6 +1,6 @@
 
 body {
-  background-color: black;
+  background-color: #404040;
 }
 
 #feedback-invite-container {
@@ -38,7 +38,7 @@ body {
 #invite-content {
   width: 372px;
   height: 100%; /*166px;*/
-  padding: 35 29 40 40;
+  padding: 35px 29px 40px 40px;
   background-color: white;
   display: none;
   float: left;
@@ -61,7 +61,7 @@ body {
 #feedback-content {
   width: 372px;
   height: 100%;
-  padding: 35 29 40 40;
+  padding: 35px 29px 40px 40px;
   background-color: white;
   display: none;
   float: left;
@@ -98,7 +98,7 @@ input[type=button] {
 #invite-thankyou {
   width: 372px;
   height: 126px;
-  padding: 35 29 40 40;
+  padding: 35px 29px 40px 40px;
   background-color: white;
   display: none;
   float: left;
@@ -106,7 +106,7 @@ input[type=button] {
 #feedback-thankyou {
   width: 372px;
   height: 126px;
-  padding: 35 29 40 40;
+  padding: 35px 29px 40px 40px;
   background-color: white;
   display: none;
   float: left;
